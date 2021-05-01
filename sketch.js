@@ -109,7 +109,7 @@ function mouseReleased() {
 
 function keyPressed(){
     if(keyCode === 32){
-     launcher.attach(this.ball);
+     launcher.attach(this.ball.body);
     } 
  }
 
